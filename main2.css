@@ -1,0 +1,61 @@
+body{
+	background-color:#FFFDE7;
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+}
+*{
+	margin:0;
+	padding:0;
+}
+blockquote{
+	margin-left:100px;
+}
+.header{
+background-color:#40C4FF;
+height:70px;
+font-family:"Palatino Linotype";
+text-align:center;
+}
+.buttonhello{
+	background-color:#B9F6CA;
+	color:black;
+	width:90px;
+	height:30px;
+	position:absolute;
+	right:0;
+	margin:10px;
+	bottom:0;
+}
+.twitter-share-button{
+	background-color:blue;
+	color:white;
+	margin-left:30px;
+	position:absolute;
+	bottom:0;
+	margin-bottom:20px;
+	text-decoration:none;
+	padding:5px;
+	border-radius:4px;
+	
+}
+#quote{
+	padding:30px;
+}
+.quote-box{
+	width:35%;
+	height:35%;
+	border:1px solid black;
+	position:fixed;
+	top:30%;
+	left:35%;
+	
+	background-color:white;
+	border-top-left-radius:10px;
+	font-family:"Monospace";
+	
+}
+#comma h1{
+	padding-left:5px;
+}

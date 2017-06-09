@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Random Quote Machine</title>
+<link rel="stylesheet" href="main2.css">
+</head>
+<body>
+<div class="header">
+<h2>Quote Generator</h2><small>By Chirag Jain</small>
+</div>
+<div class="quote-box">
+<p id="comma"><h1>"</h1></p>
+<p id="quote">I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.</p>
+<blockquote><p id="writer">-Og Mandino</p></blockquote>
+<button onclick="getquote()" class="buttonhello">Next Quote</button>
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Quotes Generator By Chirag Jain. Follow on Twitter:JainUdr27"
+  data-size="large">
+Tweet</a>
+</div>
+<script>
+var quotes=["I will love the light for it shows me the way, yet I will endure the darkness because it shows me the stars.","Whenever I climb I am followed by a dog called 'Ego'.",
+"I have always depended on the kindness of strangers.","If you are going through hell, keep going.",
+"Greed, for lack of a better word, is good."];
+var writers=["-Og Mandino","-Friedrich Nietzsche","-Unknown","-Winston Churchill","-Wall Street"];
+var colors=["#B9F6CA","#F0F4C3","#E0F2F1","#FF9E80","#795548"];
+
+function getquote(){
+var x=document.getElementById("quote");
+var z=document.getElementById("writer");
+var y=Math.floor(Math.random()*5);
+x.innerHTML=quotes[y];
+writer.innerHTML=writers[y];
+document.body.style.backgroundColor=colors[y];
+}
+</script>
+</div>
+</body>
+</html>
